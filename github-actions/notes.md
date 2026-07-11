@@ -1,4 +1,4 @@
-Github Actions es una plataforma de integración y despliegue continuo CI/CD (Continuous Integration / Continuous Deployment) que permite automatizar procesos de compilación, pruebas y despliegue.
+# Github Actions es una plataforma de integración y despliegue continuo CI/CD (Continuous Integration / Continuous Deployment) que permite automatizar procesos de compilación, pruebas y despliegue.
 
 El flujo CI/CD consta en 8 secciones que se repetirán cíclicamente, 4 para CI y 4 para CD.
 
@@ -14,3 +14,16 @@ Release: Enviar nuestra build a la locación remota donde se aloja el proyecto.
 Deploy: Reconfigurar y relanzar los servicios del proyecto con los nuevos features.
 Operate: Mantener el proyecto a flote.
 Measure: Medir con métricas la calidad del servicio.
+
+
+- workflow -> job -> step -> action
+- event -> runner
+
+
+Workflow = automatización completa.
+Job = conjunto de tareas.
+Step = tarea individual.
+Action = tarea reutilizable.
+Event = dispara el workflow.
+Runner = máquina que ejecuta todo.
+
